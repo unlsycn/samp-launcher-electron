@@ -1,23 +1,19 @@
 <template>
   <el-container>
-    <el-header>Header</el-header>
-    <el-container>
-      <el-aside width="200px">Aside</el-aside>
-      <el-main>Main</el-main>
-    </el-container>
-    <el-footer>Footer</el-footer>
+    <el-header><page-header></page-header></el-header>
+    <el-main><page-main></page-main></el-main>
+    <el-footer><page-footer></page-footer></el-footer>
   </el-container>
 </template>
 
 <script>
-  export default {
-    name: 'launcher-page',
-    methods: {
-      open (link) {
-        this.$electron.shell.openExternal(link)
-      }
-    }
-  }
+import PageMain from './Page/PageMain'
+import PageHeader from './Page/PageHeader'
+import PageFooter from './Page/PageFooter'
+export default {
+  name: 'launcher-page',
+  components: {PageMain, PageHeader, PageFooter}
+}
 </script>
 
 <style>
@@ -25,11 +21,6 @@
 {
   text-align: center;
   line-height: 60px;
-}
-.el-aside
-{
-  text-align: center;
-  line-height: 200px;
 }
 .el-main
 {
