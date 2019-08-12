@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <el-button type="danger">Test</el-button>
     <router-view></router-view>
   </div>
 </template>
@@ -12,5 +11,4 @@
 </script>
 
 <style>
-  /* CSS */
 </style>
