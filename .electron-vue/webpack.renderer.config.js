@@ -12,6 +12,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { VueLoaderPlugin } = require("vue-loader");
 
+/* eslint-disable */
 /**
  * List of node_modules to include in webpack bundle
  *

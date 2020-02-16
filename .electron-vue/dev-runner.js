@@ -1,4 +1,5 @@
 'use strict'
+/* eslint-disable */
 
 const chalk = require('chalk')
 const electron = require('electron')

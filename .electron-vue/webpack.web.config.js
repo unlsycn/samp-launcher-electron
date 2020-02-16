@@ -1,4 +1,5 @@
 'use strict'
+/* eslint-disable */
 
 process.env.BABEL_ENV = 'web'
 

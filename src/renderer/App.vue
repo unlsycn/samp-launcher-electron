@@ -3,9 +3,9 @@
 </template>
 
 <script>
-  export default {
-      name: 'samp-launcher-electron'
-  };
+export default {
+    name: "samp-launcher-electron"
+};
 </script>
 
 <style>

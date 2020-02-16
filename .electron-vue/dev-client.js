@@ -11,6 +11,7 @@ hotClient.subscribe(event => {
   // if (event.action === 'reload') {
   //   window.location.reload()
   // }
+/* eslint-disable */
 
   /**
    * Notify `mainWindow` when `main` process is compiling,
