@@ -31,7 +31,7 @@ module.exports = {
     extends: "standard",
     globals: {
         __static: true,
-        plugins: ["html"],
+        plugins: ["html", "@vue"],
         // allow paren-less arrow functions
         "arrow-parens": 0,
         // allow async-await

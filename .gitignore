@@ -10,3 +10,4 @@ thumbs.db
 !.gitkeep
 .vscode/
 yarn-error.log
+yarn.lock
