@@ -4,8 +4,8 @@
 
 <script>
   export default {
-    name: 'samp-launcher-electron'
-  }
+      name: 'samp-launcher-electron'
+  };
 </script>
 
 <style>

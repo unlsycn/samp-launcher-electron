@@ -7,13 +7,13 @@
 </template>
 
 <script>
-import PageMain from './Page/PageMain'
-import PageHeader from './Page/PageHeader'
-import PageFooter from './Page/PageFooter'
+import PageMain from './Page/PageMain';
+import PageHeader from './Page/PageHeader';
+import PageFooter from './Page/PageFooter';
 export default {
-  name: 'launcher-page',
-  components: {PageMain, PageHeader, PageFooter}
-}
+    name: 'launcher-page',
+    components: {PageMain, PageHeader, PageFooter}
+};
 </script>
 
 <style>
