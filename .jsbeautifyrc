@@ -1,0 +1,5 @@
+    {
+        "brace_style": "expand,preserve-inline",
+        "space_after_anon_function": true,
+        "space_after_named_function": true
+    }

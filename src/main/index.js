@@ -1,6 +1,11 @@
 "use strict";
 
-import { app, BrowserWindow } from "electron";
+import
+{
+    app,
+    BrowserWindow
+}
+    from "electron";
 
 /**
  * Set `__static` path to static files in production
@@ -19,16 +24,17 @@ const winURL = process.env.NODE_ENV === "development" ? "http://localhost:9080" 
 function createWindow ()
 {
     /*
-    * Initial window options
-    */
-    mainWindow = new BrowserWindow({
-        height: 670,
-        width: 1000,
-        useContentSize: true,
-        frame: true,
-        resizable: false,
-        movable: true
-    });
+     * Initial window options
+     */
+    mainWindow = new BrowserWindow(
+        {
+            height: 670,
+            width: 1000,
+            useContentSize: true,
+            frame: true,
+            resizable: false,
+            movable: true
+        });
 
     mainWindow.loadURL(winURL);
 
@@ -65,13 +71,13 @@ app.on("activate", () =>
  */
 
 /*
-import { autoUpdater } from 'electron-updater'
+    import { autoUpdater } from 'electron-updater'
 
-autoUpdater.on('update-downloaded', () => {
-  autoUpdater.quitAndInstall()
-})
+    autoUpdater.on('update-downloaded', () => {
+      autoUpdater.quitAndInstall()
+    })
 
-app.on('ready', () => {
-  if (process.env.NODE_ENV === 'production') autoUpdater.checkForUpdates()
-})
- */
+    app.on('ready', () => {
+      if (process.env.NODE_ENV === 'production') autoUpdater.checkForUpdates()
+    })
+     */
